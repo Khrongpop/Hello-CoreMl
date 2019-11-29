@@ -14,6 +14,7 @@
 		68F15942237D11FC00752DCA /* Hello_CoreMl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68F15940237D11FC00752DCA /* Hello_CoreMl.xcdatamodeld */; };
 		68F15944237D11FE00752DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F15943237D11FE00752DCA /* Assets.xcassets */; };
 		68F15947237D11FE00752DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F15945237D11FE00752DCA /* LaunchScreen.storyboard */; };
+		68F1594F237D1DF400752DCA /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 68F1594E237D1DF300752DCA /* Food101.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		68F15943237D11FE00752DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68F15946237D11FE00752DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68F15948237D11FE00752DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F1594E237D1DF300752DCA /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		68F15936237D11FC00752DCA /* Hello=CoreMl */ = {
 			isa = PBXGroup;
 			children = (
+				68F1594E237D1DF300752DCA /* Food101.mlmodel */,
 				68F15937237D11FC00752DCA /* AppDelegate.swift */,
 				68F15939237D11FC00752DCA /* SceneDelegate.swift */,
 				68F1593B237D11FC00752DCA /* ViewController.swift */,
@@ -145,6 +148,7 @@
 				68F15938237D11FC00752DCA /* AppDelegate.swift in Sources */,
 				68F15942237D11FC00752DCA /* Hello_CoreMl.xcdatamodeld in Sources */,
 				68F1593A237D11FC00752DCA /* SceneDelegate.swift in Sources */,
+				68F1594F237D1DF400752DCA /* Food101.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
